@@ -13,10 +13,10 @@ public class Main {
         Electronic television = new TelevisionImpl();
         Electronic blurayPlayer = new BlurayPlayerImpl();
 
-        remote.tooglePower(television);
-        remote.tooglePower(blurayPlayer);
-        remote.tooglePower(blurayPlayer);
-        remote.tooglePower(television);
+        remote.togglePower(television);
+        remote.togglePower(blurayPlayer);
+        remote.togglePower(blurayPlayer);
+        remote.togglePower(television);
     }
 
 }

@@ -1,5 +1,5 @@
 package br.com.diogomatheus.interfaces;
 
 public interface RemoteControl {
-    public void tooglePower(Electronic electronic);
+    public void togglePower(Electronic electronic);
 }
